@@ -15,8 +15,13 @@ $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 $(call inherit-product, device/xiaomi/cmi/device.mk)
 
 # Build Flags
-TARGET_SCREEN_HEIGHT := 2340
-TARGET_SCREEN_WIDTH  := 1080
+TARGET_SCREEN_HEIGHT          := 2340
+TARGET_SCREEN_WIDTH           := 1080
+TARGET_USES_MINI_GAPPS        := true
+TARGET_BUILD_DEVICE_AS_WEBCAM := true
+TARGET_HAS_UDFPS              := true
+TARGET_INCLUDE_ACCORD         := false
+BUILD_BCR                     := true
 
 PRODUCT_NAME := lineage_cmi
 PRODUCT_DEVICE := cmi
