@@ -14,6 +14,10 @@ $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 # Inherit from cmi device
 $(call inherit-product, device/xiaomi/cmi/device.mk)
 
+# Build Flags
+TARGET_SCREEN_HEIGHT := 2340
+TARGET_SCREEN_WIDTH  := 1080
+
 PRODUCT_NAME := lineage_cmi
 PRODUCT_DEVICE := cmi
 PRODUCT_MANUFACTURER := Xiaomi
