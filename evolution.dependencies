@@ -1,0 +1,38 @@
+[
+  {
+    "repository": "device_xiaomi_sm8250-common",
+    "target_path": "device/xiaomi/sm8250-common"
+  },
+  {
+    "repository": "SM8250-Development/vendor_xiaomi_sm8250-common",
+    "target_path": "vendor/xiaomi/sm8250-common",
+    "remote": "gitlab",
+    "branch": "vic"
+  },
+  {
+    "repository": "SM8250-Development/vendor_xiaomi_cmi",
+    "target_path": "vendor/xiaomi/cmi",
+    "remote": "gitlab",
+    "branch": "vic"
+  },
+  {
+    "repository": "kernel_xiaomi_sm8250",
+    "target_path": "kernel/xiaomi/sm8250"
+  },
+  {
+    "repository": "hardware_xiaomi",
+    "target_path": "hardware/xiaomi"
+  },
+  {
+    "repository": "Xiaomi-Development/device_xiaomi_camera",
+    "target_path": "device/xiaomi/camera",
+    "remote": "github-non-los",
+    "branch": "aosp-15"
+  },
+  { 
+    "repository": "xiaomi-development/vendor_xiaomi_camera",
+    "target_path": "vendor/xiaomi/camera",
+    "remote": "gitlab",
+    "branch": "aosp-15"
+  }
+]
