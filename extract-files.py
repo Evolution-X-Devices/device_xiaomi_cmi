@@ -25,7 +25,7 @@ blob_fixups: blob_fixups_user_type = {
             b'liba2dpoffload_cmi.so\x00\x00\x00\x00\x00\x00\x00\x00',
         )
         .replace_needed('libaudioroute.so', 'libaudioroute-v34.so'),
-    ('vendor/lib/libaudioroute_ext.so'): blob_fixup()
+    'vendor/lib/libaudioroute_ext.so': blob_fixup()
         .replace_needed('libaudioroute.so', 'libaudioroute-v34.so'),
     'vendor/lib64/camera/components/com.mi.node.watermark.so': blob_fixup()
         .add_needed('libpiex_shim.so'),
